@@ -1,0 +1,31 @@
+/* Add a orange background color to the top navigation */
+.topnav {
+    background-color: orange;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+	margin:0;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+	font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: orange;
+    color: white;
+}
